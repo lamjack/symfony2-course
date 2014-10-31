@@ -70,3 +70,16 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# WechatSDK Configuration
+acme_wechat_sdk:
+    debug: false
+    clients:
+        demo1:
+            token: demo1
+            appid: demo1appid
+            secret: demo1secret
+        demo2:
+            token: demo2
+            appid: demo2appid
+            secret: demo2secret

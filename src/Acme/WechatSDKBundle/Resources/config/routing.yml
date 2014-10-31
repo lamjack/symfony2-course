@@ -1,0 +1,3 @@
+acme_wechat_sdk_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeWechatSDKBundle:Default:index }

@@ -1,0 +1,4 @@
+acme_wechat_sdk:
+    resource: "@AcmeWechatSDKBundle/Resources/config/routing.yml"
+    prefix:   /
+
